@@ -1,0 +1,970 @@
+{
+  "PHASES": [
+    {
+      "id": "foundation",
+      "num": 1,
+      "en": "Foundation",
+      "zh": "基礎理論",
+      "weekRange": "1-4",
+      "color": "--phase-1",
+      "icon": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+      "modules": [
+        {
+          "id": "f0",
+          "en": "Strategic Overview",
+          "zh": "戰略總覽",
+          "iccp": [],
+          "content": [
+            {
+              "type": "text",
+              "en": "Before diving into principles and methods, understand what CPTED is, why it matters strategically, and the evidence behind it. This module frames the entire program.",
+              "zh": "在深入原則和方法之前，先了解 CPTED 是什麼、為什麼它在戰略上重要，以及背後的證據。本模組為整個計畫提供框架。"
+            },
+            {
+              "type": "concept",
+              "title_en": "What CPTED Is — And What It Is Not",
+              "title_zh": "CPTED 是什麼——以及不是什麼",
+              "en": "CPTED is a multidisciplinary approach that uses the design and management of the built environment to reduce criminal opportunity and the fear of crime. It is NOT fortification. The core insight is deceptively simple: environments shape behavior. A well-designed space makes crime harder, riskier, and less rewarding — without turning buildings into bunkers.\n\nThe paradigm shift: traditional security is reactive (detect, respond, investigate). CPTED is proactive (design the environment so incidents are less likely to occur in the first place). This does not replace guards, cameras, or access control — it makes them more effective by working with the environment rather than against it.",
+              "zh": "CPTED 是一種跨領域方法，通過建築環境的設計和管理來減少犯罪機會和犯罪恐懼感。它不是要塞化。核心洞察：環境塑造行為。\n\n範式轉移：傳統安全是被動的（偵測、回應、調查）。CPTED 是主動的（設計環境使事件不太可能發生）。這不是取代警衛、攝影機或門禁——而是讓它們更有效。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Three Generations at a Glance",
+              "title_zh": "三代 CPTED 一覽",
+              "en": "1G CPTED (1970s–90s): Physical design → reduce opportunity. Natural surveillance, access control, territorial reinforcement, maintenance. The built environment as crime deterrent.\n\n2G CPTED (1997–2010s): Social ecology → build community capacity. Social cohesion, community connectivity, culture, threshold capacity. Design alone is not enough; the strength of social interactions creates safe environments.\n\n3G CPTED (2019–present): Holistic sustainability → address root causes. Environmental sustainability, public health, economic resilience, cyber-physical integration. Where digital transformation and physical security converge.\n\nEach generation subsumes the previous — 3G does not replace 1G; it requires it as foundation.",
+              "zh": "1G CPTED（1970s–90s）：物理設計 → 減少機會。自然監控、出入管制、領域強化、維護。\n\n2G CPTED（1997–2010s）：社會生態 → 建立社區能力。社會凝聘力、連結性、文化、閾值容量。\n\n3G CPTED（2019–現在）：整體永續 → 處理根本原因。環境永續性、公共衛生、經濟韌性、資訊實體整合。\n\n每一代涵蓋前一代。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Core Frameworks & Methodologies",
+              "title_zh": "核心框架與方法論",
+              "en": "Routine Activity Theory (Cohen & Felson, 1979): Crime occurs when three elements converge — a motivated offender, a suitable target, and the absence of a capable guardian. CPTED works primarily on the third element: making every space a guarded space through design.\n\nCrowe’s Three-D Approach: (1) DESIGNATION — what is the intended purpose of this space? (2) DEFINITION — how is the space defined? (3) DESIGN — does the physical design support the intended use? When answers conflict, the space is vulnerable.\n\nISO 22341:2021 PDCA Process: The first international CPTED standard mandates four stages: (1) Leadership and oversight, (2) Context and criteria analysis, (3) Risk assessment, (4) Risk treatment and evaluation with continuous improvement. This parallels ISO 27001 ISMS methodology.\n\nSafeGrowth (Saville, 2009): Practical 2G-CPTED application using the ‘To-For-With’ principle — strategies delivered WITH residents and users, not TO or FOR them.",
+              "zh": "日常活動理論（Cohen & Felson, 1979）：犯罪發生在三要素交會時。CPTED 主要作用於第三要素。\n\nCrowe 的 Three-D 方法：(1) 指定 (2) 定義 (3) 設計。當答案衝突時，空間就是脆弱的。\n\nISO 22341:2021 PDCA 流程：(1) 領導與監督 (2) 背景與準則分析 (3) 風險評估 (4) 風險處理與評估。與 ISO 27001 方法論平行。\n\nSafeGrowth（Saville, 2009）：基於「To-For-With」原則的 2G-CPTED 應用。"
+            },
+            {
+              "type": "concept",
+              "title_en": "The Global Evidence Base",
+              "title_zh": "全球證據基礎",
+              "en": "The empirical case for CPTED is robust and cross-cultural:\n\n• Meta-analysis (Casteel & Peek-Asa, 2000): Multi-component CPTED programs reduced robberies 30–84% across US sites.\nSource: pubmed.ncbi.nlm.nih.gov/10793286\n\n• US DOJ (2000): Review of 100+ police department projects found 57% of successful crime reduction projects used CPTED strategies.\n\n• UK Secured by Design: Meta-analysis of 9 studies found 53% lower burglary in SBD-standard properties. In Scotland, 87% fewer crimes over 18 years across 3,000 SBD homes.\nSource: college.police.uk/research/crime-reduction-toolkit/secured-by-design\n\n• Taipei micro-place study (2025): 51.3% of burglaries concentrated in just 5% of micro-place units (Gini 0.4967), validating targeted CPTED in an Asian urban context.\nSource: link.springer.com/article/10.1007/s43576-025-00163-7\n\nThe evidence consistently shows: targeted environmental design delivers measurable, sustained crime reduction across cultures and continents.",
+              "zh": "CPTED 的實證基礎堅實且跨文化：\n\n• 綜合分析（Casteel & Peek-Asa, 2000）：減少搜劫 30–84%。\n• 美國司法部（2000）：57% 成功專案使用 CPTED。\n• 英國 SBD：窤盜率低 53%。蘇格蘭 87% 減少。\n• 台北研究（2025）：51.3% 窤盜集中在 5% 的微觀地點。\n\n證據一致表明：針對性環境設計在不同文化都能提供可衡量的持續犯罪減少。"
+            },
+            {
+              "type": "check",
+              "en": "Before proceeding: can you articulate why CPTED matters for your organization in one sentence? What is the single biggest security challenge that better environmental design could address at your facility?",
+              "zh": "在繼續之前：你能否用一句話闡明 CPTED 對你的組織為什麼重要？"
+            }
+          ],
+          "readings": [
+            {
+              "title": "ISO 22341:2021 — Security and resilience: Protective security",
+              "type": "standard",
+              "url": "https://www.iso.org/standard/50078.html"
+            },
+            {
+              "title": "CPTED 3rd Ed. (Crowe & Fennelly, 2013)",
+              "type": "book",
+              "url": "https://www.routledge.com/Crime-Prevention-Through-Environmental-Design/Crowe-Fennelly/p/book/9780124116351"
+            },
+            {
+              "title": "Pinkerton: Crime Prevention Through Environmental Design",
+              "type": "guide",
+              "url": "https://pinkerton.com/our-insights/blog/crime-prevention-through-environmental-design"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Write a 1-paragraph CPTED value proposition for your security leadership",
+              "zh": "為安全領導層撰寫 1 段 CPTED 價值主張"
+            },
+            {
+              "en": "Identify 3 areas where design contributes to (or undermines) security",
+              "zh": "識別 3 個設計促進或削弱安全的區域"
+            }
+          ]
+        },
+        {
+          "id": "f1",
+          "en": "Origins & Theoretical Foundations",
+          "zh": "起源與理論基礎",
+          "iccp": [
+            "CU#02"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "CPTED rests on a family of criminological theories sharing one premise: the physical and social environment shapes criminal opportunity. Understanding this lineage is essential before applying any design principle.",
+              "zh": "CPTED 建立在一系列犯罪學理論之上，共享同一前提：物理和社會環境塑造犯罪機會。在應用任何設計原則之前，理解這一脈絡至關重要。"
+            },
+            {
+              "type": "concept",
+              "title_en": "C. Ray Jeffery (1971)",
+              "title_zh": "C. Ray Jeffery (1971)",
+              "en": "Coined the term CPTED. Rooted in B.F. Skinner's behaviorist psychology — the environment provides stimuli (rewards and punishments) that shape offender decisions. Jeffery argued we should modify the environment rather than the offender. His original model was a stimulus-response framework: the organism learns from environmental reinforcements.",
+              "zh": "Jeffery 創造了 CPTED 一詞。根植於 B.F. Skinner 行為主義心理學——環境提供刺激（獎勵和懲罰）來塑造犯罪者的決定。Jeffery 主張我們應該修改環境而非犯罪者。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Oscar Newman — Defensible Space (1972)",
+              "title_zh": "Oscar Newman — 防禦性空間 (1972)",
+              "en": "Newman studied housing projects in New York and found crime rates varied dramatically based on building design. His four elements: (1) Territoriality — design creating zones of territorial influence, (2) Natural Surveillance — layout permitting residents to observe public areas, (3) Image — design avoiding stigma of vulnerability, (4) Milieu — locating residential areas in safe zones.\n\nKey insight: high-rise public housing with undefined common areas had far higher crime than low-rise buildings with clearly 'owned' outdoor spaces.",
+              "zh": "Newman 研究紐約公共住宅，發現犯罪率因建築設計而有戲劇性差異。四要素：(1) 領域性 (2) 自然監控 (3) 形象 (4) 環境背景。\n\n關鍵洞察：具有未定義公共區域的高層公共住宅犯罪率遠高於具有明確「屬有」戶外空間的低層建築。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Supporting Theories",
+              "title_zh": "支撐理論",
+              "en": "Routine Activity Theory (Cohen & Felson, 1979): crime occurs when three elements converge — a motivated offender, a suitable target, and the absence of a capable guardian. CPTED works primarily on the third element.\n\nRational Choice Theory (Cornish & Clarke, 1986): offenders make cost-benefit calculations. If the environment increases perceived risk and reduces perceived reward, the 'rational' choice is to not offend.\n\nBroken Windows Theory (Wilson & Kelling, 1982): visible deterioration signals a space is unmonitored, inviting further disorder.\n\nSituational Crime Prevention (Clarke, 1992): 25 techniques organized around five strategies — increase effort, increase risk, reduce rewards, reduce provocations, remove excuses.",
+              "zh": "日常活動理論 (Cohen & Felson, 1979)：犯罪發生在三要素交會時——有動機的犯罪者、合適的目標、缺乏有能力的守護者。CPTED 主要作用於第三要素。\n\n理性選擇理論 (Cornish & Clarke, 1986)：犯罪者進行成本效益計算。\n\n破窗理論 (Wilson & Kelling, 1982)：可見的劣化表明空間無人監管。\n\n情境犯罪預防 (Clarke, 1992)：25 種技術，五個策略。"
+            },
+            {
+              "type": "insight",
+              "en": "The genealogy matters for practice: Jeffery's behaviorist model → Newman's architectural model → Crowe's operational model (Three-D: Designation, Definition, Design) → Saville's community model (SafeGrowth). Each generation widened the lens from individual psychology to building design to urban planning to social ecology.",
+              "zh": "系譜對實務很重要：Jeffery 行為模型 → Newman 建築模型 → Crowe 操作模型（Three-D）→ Saville 社區模型（SafeGrowth）。每一代都擴展了視野。"
+            },
+            {
+              "type": "check",
+              "en": "Can you explain the difference between Jeffery's and Newman's original CPTED concepts? Why does Routine Activity Theory matter for CPTED practitioners?",
+              "zh": "你能否解釋 Jeffery 和 Newman 原始 CPTED 概念的區別？日常活動理論為什麼對 CPTED 執業者重要？"
+            },
+            {
+              "type": "concept",
+              "title_en": "Case: Five Oaks, Dayton OH — Defensible Space in Action",
+              "title_zh": "案例：Five Oaks — 防禦性空間的實踐",
+              "en": "In the early 1990s, Five Oaks was a deteriorating neighborhood plagued by drug dealing, prostitution, and violent crime. Oscar Newman himself designed the intervention: the area was divided into 10 mini-neighborhoods with controlled entry portals and closed through-streets.\n\nResult: 26% overall crime reduction. Crime also declined in adjacent neighborhoods — the opposite of displacement. Occupancy rates rose as the neighborhood stabilized.\n\nWhy it matters: Five Oaks proved that Newman’s theoretical framework worked in practice. Territorial reinforcement and access control, applied at neighborhood scale, changed offender behavior without fortress architecture.\n\nSource: huduser.gov/portal/publications/pdf/defch2.pdf",
+              "zh": "1990 年代初，Five Oaks 受毒品交易和暴力犯罪困擾。Newman 本人設計介入方案：劃分 10 個微型社區，設置受控入口。\n\n結果：犯罪減少 26%。周邊社區犯罪也下降。\n\n來源：HUD Defensible Space Casebook"
+            }
+          ],
+          "readings": [
+            {
+              "title": "Crime Prevention Through Environmental Design (Jeffery, 1971)",
+              "type": "book",
+              "url": "https://www.worldcat.org/title/155788"
+            },
+            {
+              "title": "Defensible Space (Newman, 1972)",
+              "type": "book",
+              "url": "https://www.huduser.gov/portal/publications/pdf/defch1.pdf"
+            },
+            {
+              "title": "CPTED 3rd Ed. (Crowe & Fennelly, 2013)",
+              "type": "book",
+              "url": "https://www.routledge.com/Crime-Prevention-Through-Environmental-Design/Crowe-Fennelly/p/book/9780124116351"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Map the theoretical genealogy: Jeffery → Newman → Crowe → Saville",
+              "zh": "繪製理論系譜圖"
+            },
+            {
+              "en": "Write 500-word comparison of 1G vs 2G CPTED principles",
+              "zh": "撰寫 500 字比較 1G 與 2G CPTED"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "en": "1st Generation CPTED Principles",
+          "zh": "第一代 CPTED 原則",
+          "iccp": [
+            "CU#02",
+            "CU#09"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "First-generation CPTED addresses the physical environment through four interlocking principles. They are separated for education purposes, but in practice they are facets of a single design approach.",
+              "zh": "第一代 CPTED 通過四個相互交織的原則來處理物理環境。為教育目的而分開，但實務中它們是單一設計方法的不同面向。"
+            },
+            {
+              "type": "concept",
+              "title_en": "1. Natural Surveillance",
+              "title_zh": "1. 自然監控",
+              "en": "Core premise: criminals do not wish to be observed. Surveillance places legitimate 'eyes on the street' (Jane Jacobs, 1961) and increases perceived risk to offenders.\n\nDesign strategies: orient windows and entrances toward public areas; use transparent materials (glass walls, open railings) instead of solid barriers; position workstations near entrances; maintain sightlines by keeping landscaping below 90cm and tree canopies above 2m; use uniform illumination that eliminates hiding spots.\n\nA guard booth with no sightline to the entrance provides zero natural surveillance despite being a security investment. Cameras with no one monitoring produce evidence, not prevention.",
+              "zh": "核心前提：犯罪者不希望被觀察。監控在街道上放置合法的「眼睛」，增加犯罪者的感知風險。\n\n設計策略：將窗戶和入口朝向公共區域；使用透明材料；將工作站設在入口附近；將景觀植栽維持在 90cm 以下、樹冠在 2m 以上；使用消除隱藏點的均勻照明。\n\n沒有入口視線的警衛亭提供零自然監控。沒人監看的攝影機產生證據，而非預防。"
+            },
+            {
+              "type": "concept",
+              "title_en": "2. Natural Access Control",
+              "title_zh": "2. 自然出入管制",
+              "en": "Channels people into and through spaces via legitimate entry points without fortress-like barriers. The goal: make unauthorized access psychologically uncomfortable and physically inconvenient.\n\nDesign strategies: define entry sequences (sidewalk → plaza → lobby → badge gate → workspace); use landscaping as gentle barriers; limit entry/exit points to controllable quantities; use pavement pattern changes to signal zone transitions; position reception at natural chokepoints.\n\nKey distinction: Access control ≠ fortification. A well-designed path system is more sustainable than a locked gate that creates queues and resentment.",
+              "zh": "通過合法入口將人們引導進入和穿越空間，而無需堡壘式屏障。\n\n設計策略：定義入口序列；使用景觀作為溫和屏障；限制入口/出口數量；用路面圖案變化標示區域轉換。\n\n關鍵區別：出入管制 ≠ 要塞化。設計良好的路徑系統比創造排隊和怨恨的上鎖大門更永續。"
+            },
+            {
+              "type": "concept",
+              "title_en": "3. Territorial Reinforcement",
+              "title_zh": "3. 領域強化",
+              "en": "Uses design cues to express ownership and delineate transitions from public → semi-public → semi-private → private space. When people feel ownership, they protect and maintain it; outsiders perceive higher risk.\n\nDesign strategies: signage marking boundaries; material and pavement changes at zone transitions; personalized landscaping; community nameboards; maintained communal areas.\n\nCritical concept — 'No Man's Land': any space with no assigned purpose or ownership is a vulnerability. Stairwells, back corridors, loading areas, and empty lots become attractors for unwanted activity because no one claims them.",
+              "zh": "使用設計線索來表達所有權，劃分公共→半公共→半私人→私人空間的轉換。\n\n關鍵概念——「無主之地」：任何沒有指定用途或所有權的空間都是弱點。樓梯間、後走廊、裝卸區和空地之所以吸引不受歡迎的活動，正是因為沒有人聲稱擁有它們。"
+            },
+            {
+              "type": "concept",
+              "title_en": "4. Maintenance & Image Management",
+              "title_zh": "4. 維護與形象管理",
+              "en": "A well-maintained space signals: watched, cared for, defended. Deterioration signals the opposite — the 'broken windows' effect operationalized.\n\nDesign strategies: durable, graffiti-resistant materials; plantings chosen for mature size; rapid-repair protocols (24-48hr fix policy); integrate maintenance into facility operations.\n\nDesign-stage consideration: maintenance burden must be assessed during design, not after handover. A water feature that becomes stagnant within two years because no one budgeted for upkeep is a CPTED failure.",
+              "zh": "維護良好的空間發送清晰信號：有人監看、有人維護、有人守護。\n\n設計階段考量：維護負擔必須在設計階段而非移交後評估。一個美麗的水景因無人編列維護預算而在兩年內變成死水池，就是 CPTED 失敗。"
+            },
+            {
+              "type": "concept",
+              "title_en": "5. Activity Support",
+              "title_zh": "5. 活動支援",
+              "en": "Places the right activities in the right spaces to generate natural foot traffic and guardianship. A coffee kiosk near a parking entrance generates eyes-on-the-lot. A playground within sight of apartment windows creates mutual surveillance. Programming spaces with scheduled activities fills them with legitimate users.",
+              "zh": "在正確的空間放置正確的活動，產生自然人流和守護。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Crowe's Three-D Approach",
+              "title_zh": "Crowe 的 Three-D 方法",
+              "en": "Timothy Crowe operationalized CPTED assessment with three diagnostic questions:\n\n(1) DESIGNATION — What is the intended purpose of this space?\n(2) DEFINITION — How is the space defined? (Physical, social, legal, cultural boundaries)\n(3) DESIGN — Does the physical design support the intended use and definition?\n\nWhen answers conflict, the space is vulnerable. Example: a corridor designated 'employee only' but with no signage, no access control, and blocked sightlines is poorly defined and poorly designed for its designation.",
+              "zh": "Crowe 用三個診斷問題將 CPTED 評估操作化：\n\n(1) 指定（DESIGNATION）——這個空間的預期用途是什麼？\n(2) 定義（DEFINITION）——空間如何被定義？\n(3) 設計（DESIGN）——物理設計是否支持預期用途和定義？\n\n當答案互相衝突時，空間就是脆弱的。"
+            },
+            {
+              "type": "check",
+              "en": "Walk through your office lobby. Can you identify at least one example of each of the four CPTED principles? Where are they weak or contradictory?",
+              "zh": "走過你的辦公室大廳。你能否識別出四項 CPTED 原則的至少各一個範例？"
+            },
+            {
+              "type": "concept",
+              "title_en": "Case: UK Secured by Design — National-Scale 1G Evidence",
+              "title_zh": "案例：英國 Secured by Design — 國家級 1G 證據",
+              "en": "Secured by Design (SBD), launched in 1989, is the UK’s flagship CPTED program. It sets physical security standards (doors, windows, fencing, lighting, layout) that developers must meet for accreditation.\n\nEvidence: A College of Policing meta-analysis of 9 studies found 53% lower burglary in SBD properties. New builds showed 65% lower burglary. In Scotland, 3,000 SBD homes across 18 years (1997–2015) had 87% fewer crimes.\n\nKey insight: Codifying CPTED into building standards — making it the default, not an option — delivers sustained results at population scale.\n\nSource: college.police.uk/research/crime-reduction-toolkit/secured-by-design",
+              "zh": "SBD 於 1989 年推出，設定開發商必須達到的實體安全標準。\n\n證據：9 項研究綜合分析顯示窤盜率低 53%。蘇格蘭 18 年 87% 減少。\n\n將 CPTED 編入建築標準能在人口規模上提供持續結果。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Case: Brixton Town Centre, London — Urban Regeneration",
+              "title_zh": "案例：Brixton 鎮中心，倫敦 — 都市更新",
+              "en": "Brixton Town Centre in South West London had a long history of violence. After CPTED-informed urban design interventions in 2011, crime rates declined while the rest of England and Wales saw increases.\n\nRelevance: Demonstrates CPTED effectiveness in a dense, diverse urban commercial district — not just residential housing. Physical improvements combined with activity support created natural guardianship.\n\nSource: sciencedirect.com/science/article/abs/pii/S0264275118317153",
+              "zh": "Brixton 有暴力歷史。2011 年 CPTED 介入後犯罪下降，而英格蘭和威爾斯其他地區卻上升。\n\n證明 CPTED 在密集多元商業區也有效。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "21st Century Security and CPTED (Atlas, 2nd Ed.)",
+              "type": "book",
+              "url": "https://www.routledge.com/21st-Century-Security-and-CPTED/Atlas/p/book/9781439880210"
+            },
+            {
+              "title": "ISO 22341:2021 Sections 4-5",
+              "type": "standard",
+              "url": "https://www.iso.org/standard/50078.html"
+            },
+            {
+              "title": "CPTED Guidebook (Singapore NCPC)",
+              "type": "guide",
+              "url": "https://www.ncpc.org.sg/images/media/CPTED%20Guidebook.pdf"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Photo audit: walk 500m, capture 10 examples of 1G principles (good & bad)",
+              "zh": "照片審查：步行 500 公尺，拍攝 10 個 1G 原則正反案例"
+            },
+            {
+              "en": "Classify each photo by principle, rate effectiveness 1-5, note improvements",
+              "zh": "將每張照片按原則分類，評定 1-5 分，記錄改善建議"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "en": "2nd & 3rd Generation CPTED",
+          "zh": "第二代與第三代 CPTED",
+          "iccp": [
+            "CU#02",
+            "CU#09"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "1G-CPTED focused on physical design. But Saville & Cleveland's 2G-CPTED (1997-2003) recognized: the environment can affect behavior but it cannot create community. It is the strength of social interactions that ultimately creates safe environments.",
+              "zh": "1G-CPTED 聚焦於物理設計。但 Saville & Cleveland 的 2G-CPTED (1997-2003) 認識到：環境可以影響行為，但無法創造社區。最終創造安全環境的是社會互動的力量。"
+            },
+            {
+              "type": "concept",
+              "title_en": "2G-CPTED: Four Social Pillars",
+              "title_zh": "2G-CPTED：四大社會支柱",
+              "en": "(1) Social Cohesion — mutual respect, celebrating diversity, building belonging. Corporate parallel: cross-departmental collaboration, inclusive security culture.\n\n(2) Community Connectivity — partnerships with external agencies. Corporate: security team relationships with local police, emergency services, neighboring facilities.\n\n(3) Community Culture — shared sense of place, identity, placemaking. Corporate: brand identity programs, 'make you feel safe' campaigns.\n\n(4) Threshold Capacity — right mix of land uses without overwhelming. Too many bars = crime generators; too little activity = dead zones. Corporate: balancing security controls with operational flow.",
+              "zh": "(1) 社會凝聘力——相互尊重、慶祝多元、建立歸屬感。企業對應：跨部門合作、包容性安全文化。\n\n(2) 社區連結性——與外部機構建立夥伴關係。\n\n(3) 社區文化——共享地方感、認同。企業對應：品牌識別計畫。\n\n(4) 閾值容量——正確的活動和土地使用組合。"
+            },
+            {
+              "type": "concept",
+              "title_en": "SafeGrowth & 3G-CPTED",
+              "title_zh": "SafeGrowth 與 3G-CPTED",
+              "en": "SafeGrowth (Saville, 2009): practical 2G-CPTED application using the 'To-For-With' principle — strategies delivered WITH residents, not TO or FOR them. Case evidence: Hollygrove LA (walking groups reduced gang drug activity), North Battleford Canada (painted intersections, block parties correlated with citywide crime declines).\n\n3G-CPTED (Mihinjac & Saville, 2019): expands to environmental sustainability, public health, economic resilience, and digital/cyber-physical spaces. When basic safety needs are met and neighborhoods well-maintained, CPTED principles develop naturally. This is where DX work directly intersects with CPTED.",
+              "zh": "SafeGrowth (Saville, 2009)：基於「To-For-With」原則的 2G-CPTED 實際應用。案例：Hollygrove LA、North Battleford Canada。\n\n3G-CPTED (Mihinjac & Saville, 2019)：擴展到環境永續性、公共衛生、經濟韌性和數位/資訊實體空間。這是 DX 工作與 CPTED 直接交會之處。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Generational Comparison",
+              "title_zh": "世代比較",
+              "en": "1G (1970s-90s): Physical design → reduce opportunity → surveillance, access, territory, maintenance\n2G (1997-2010s): Social ecology → build capacity → cohesion, connectivity, culture, threshold\n3G (2019-present): Holistic sustainability → address root causes → environment, health, economy, digital\n\nEach generation subsumes the previous — 3G doesn't replace 1G; it requires it as foundation.",
+              "zh": "1G: 物理設計→減少機會\n2G: 社會生態→建立能力\n3G: 整體永續→處理根本原因\n\n每一代涵蓋前一代。"
+            },
+            {
+              "type": "check",
+              "en": "In your workplace, which 2G factors are strongest? Weakest? How would SafeGrowth's 'With' principle change your security culture programs?",
+              "zh": "在你的工作場所，哪些 2G 因素最強？最弱？SafeGrowth 的「With」原則會如何改變你的安全文化計畫？"
+            },
+            {
+              "type": "concept",
+              "title_en": "Case: Medellín, Colombia — Social Urbanism at Scale",
+              "title_zh": "案例：麥德林 — 規模化社會都市主義",
+              "en": "Medellín’s transformation is the most dramatic 2G-CPTED case globally. In 1991, the homicide rate was 375 per 100,000 — the world’s highest. By 2015, it dropped to 20 per 100,000. The Metrocable aerial transit system (Line K, 2004) connected isolated hillside slums to the city center, paired with libraries, schools, parks, and participatory governance.\n\nCerdá et al. (2012) found Metrocable neighborhoods experienced 84% homicide reduction vs 60% in control neighborhoods.\n\nWhy it matters for 2G: Physical infrastructure alone was insufficient. Connectivity, social cohesion, and participatory culture together drove transformation.\n\nSource: sciencedirect.com/science/article/pii/S2352146516307670",
+              "zh": "1991 年麥德林謀殺率 375/100,000，全球最高。2015 年降至 20/100,000。Metrocable 空中纜車配合圖書館、學校、公園和參與式治理。\n\nCerdá 等人發現 Metrocable 社區謀殺減少 84%，對照為 60%。\n\n僅物理基礎設施不夠，連結性、凝聘力和參與文化的結合才推動轉型。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Case: Flint, Michigan — Community-Engaged CPTED",
+              "title_zh": "案例：弗林特 — 社區參與式 CPTED",
+              "en": "Flint tested Busy Streets Theory through community-engaged CPTED from 2015–2019. A coalition implemented physical improvements (lot cleanups, beautification) and social activities (block parties, walking groups) across 505 street segments.\n\nResults: Higher CPTED intensity associated with steeper declines in violent crime (β = −0.14, p < 0.001) and violent firearm crime (β = −0.19, p < 0.001).\n\nWhy it matters: CPTED works in severely disinvested environments when community members are partners — the SafeGrowth ‘With’ principle in action.\n\nSource: pmc.ncbi.nlm.nih.gov/articles/PMC12404146",
+              "zh": "弗林特通過社區參與式 CPTED（2015–2019）在 505 個街道區段實施物理和社會改善。\n\n暴力犯罪顯著下降（β = −0.14），槍栗暴力也顯著下降（β = −0.19）。\n\n社區成員成為夥伴時 CPTED 在嚴重去投資環境也能發揮作用。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "SafeGrowth (Saville, 2009)",
+              "type": "book",
+              "url": "https://www.safegrowth.org"
+            },
+            {
+              "title": "2nd Generation CPTED (Saville & Cleveland, 2003)",
+              "type": "paper",
+              "url": "https://www.cpted.net/resources/Documents/ICA%20Resources/2nd%20Generation%20CPTED.pdf"
+            },
+            {
+              "title": "Third-Generation CPTED (Mihinjac & Saville, 2019)",
+              "type": "paper",
+              "url": "https://www.researchgate.net/publication/336853850"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Draft a 2G-CPTED assessment framework for a corporate campus",
+              "zh": "為企業園區草擬 2G-CPTED 評估框架"
+            },
+            {
+              "en": "Compare 1G/2G/3G in a reference table with corporate parallels",
+              "zh": "在參照表中比較 1G/2G/3G 三代及企業對應"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "en": "Standards & Regulatory Landscape",
+          "zh": "標準與法規",
+          "iccp": [
+            "CU#06"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "CPTED has been codified into international standards and certification frameworks. This is required for ICCP CU#06 (regulatory processes).",
+              "zh": "CPTED 已被編纂為國際標準和認證框架。這是 ICCP CU#06（法規程序）的必要條件。"
+            },
+            {
+              "type": "concept",
+              "title_en": "ISO 22341:2021",
+              "title_zh": "ISO 22341:2021",
+              "en": "First international CPTED standard (ISO/TC 292). Provides guidelines for CPTED at new or existing built environments. Key structure: Section 4 (basics, key considerations), Section 5 (strategies by stage: planning, design, site/social management). Covers all site types.\n\nISO 22341-2:2025 extends to residential facilities. CEN TS 14383-2:2022 (European) emphasizes democratic partnership approach — involving police, planners, residents, business in collaborative CPTED decisions.",
+              "zh": "第一個國際 CPTED 標準 (ISO/TC 292)。提供新建或既有建築環境的 CPTED 指南。關鍵結構：第 4 節（基礎、關鍵考量），第 5 節（按階段的策略）。\n\nISO 22341-2:2025 延伸至住宅。CEN TS 14383-2:2022（歐洲）強調民主夥伴關係方法。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Compliance Crosswalk",
+              "title_zh": "合規對照",
+              "en": "ISO 22341 ↔ TAPA FSR: perimeter barriers, access control, CCTV = 1G CPTED for supply chain\nISO 22341 ↔ SEMI E187/E188: facility layout and access zoning overlap\nISO 22341 ↔ ISO 27001 A.11: physical and environmental security controls\nISO 22341 ↔ ISO 22301: facility resilience and protective security",
+              "zh": "ISO 22341 ↔ TAPA FSR：周界、門禁、CCTV = 供應鏈安全的 1G CPTED\nISO 22341 ↔ SEMI E187/E188：設施佈局和出入分區重疊\nISO 22341 ↔ ISO 27001 A.11：實體與環境安全控制\nISO 22341 ↔ ISO 22301：設施韌性和保護性安全"
+            },
+            {
+              "type": "check",
+              "en": "Which of your current security compliance requirements already implement CPTED principles without naming them?",
+              "zh": "你現有的安全合規要求中，哪些已在未命名的情況下實施了 CPTED 原則？"
+            },
+            {
+              "type": "concept",
+              "title_en": "ISO 22341 Four-Stage Process",
+              "title_zh": "ISO 22341 四階段流程",
+              "en": "Beyond strategies by stage, ISO 22341 mandates a systematic implementation process:\n\n1. Leadership and Oversight: establish formal oversight body, declare objectives, organize multidisciplinary project team\n2. Context and Criteria: define internal/external context, analyze surrounding environment, land use, socio-economic characteristics, historical crime patterns\n3. Risk Assessment: systematic identification, analysis, evaluation of site-specific threats before proposing design interventions\n4. Risk Treatment and Evaluation: deploy targeted strategies, then continuous plan-do-check-act loop to evaluate efficacy and enact corrective actions\n\nThis PDCA cycle parallels ISO 27001 ISMS methodology. CPTED is never a one-time project.",
+              "zh": "ISO 22341 規定了系統化實施流程：\n\n1. 領導與監督：建立正式監督機構，組織跨領域專案團隊\n2. 背景與準則：定義內外部背景、分析周邊環境\n3. 風險評估：系統化識別、分析、評估場地特定威脅\n4. 風險處理與評估：部署針對性策略，然後持續 PDCA 循環\n\n此流程與 ISO 27001 ISMS 方法論平行。CPTED 永遠不是一次性專案。"
+            },
+            {
+              "type": "concept",
+              "title_en": "The Business Case for CPTED",
+              "title_zh": "CPTED 的商業論證",
+              "en": "CPTED generates ROI across four dimensions:\n\n1. Property Valuation: lower crime correlates to higher consumer confidence, foot traffic, and lease rates. Research shows measurable safety premiums on rental properties.\n2. Risk Mitigation: validated CPTED analyses improve financing terms and establish legal defensibility against premises liability.\n3. Operational Cost Reduction: natural strategies (optimized sightlines, durable boundaries) reduce recurring mechanical security and guard costs. A well-designed parking structure needs fewer active patrols.\n4. Macro-Economic Impact: CPTED-retrofitted commercial environments show robbery reductions of 30-84% in empirical studies. Crime concentrates at micro-places, so targeted CPTED yields disproportionate city-wide benefit.\n\nFor semiconductor facilities: amplified by IP protection value, TAPA/SEMI compliance requirements, and supply chain reputational risk.",
+              "zh": "CPTED 在四個維度產生投資回報：\n\n1. 財產估值：較低犯罪率與更高消費者信心和租金相關\n2. 風險緩解：經驗證的 CPTED 分析改善融資條件並建立法律防禦性\n3. 營運成本降低：自然策略大幅減少機械安全和保安人力經常性成本\n4. 宏觀經濟影響：CPTED 改造商業環境顯示搶劫減少 30-84%。犯罪集中在微觀地點，針對性 CPTED 產生不成比例的全市效益。\n\n對半導體設施：因智財保護價值、TAPA/SEMI 合規要求和供應鏈聲譽風險而放大。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "ISO 22341:2021",
+              "type": "standard",
+              "url": "https://www.iso.org/standard/50078.html"
+            },
+            {
+              "title": "CEN TS 14383-2:2022",
+              "type": "standard",
+              "url": "https://www.cencenelec.eu/"
+            },
+            {
+              "title": "ASIS Protection of Assets: Physical Security",
+              "type": "book",
+              "url": "https://www.asisonline.org/publications--resources/protection-of-assets/"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Map CPTED regulations applicable to semiconductor facilities in Taiwan",
+              "zh": "對應適用於台灣半導體廠區的 CPTED 法規"
+            },
+            {
+              "en": "Create compliance crosswalk: ISO 22341 ↔ TAPA FSR ↔ SEMI E187",
+              "zh": "建立合規對照表"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "num": 2,
+      "en": "Core Competencies",
+      "zh": "核心能力",
+      "weekRange": "5-14",
+      "color": "--phase-2",
+      "icon": "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
+      "modules": [
+        {
+          "id": "c1",
+          "en": "Task Definition & Scoping",
+          "zh": "任務定義與範圍",
+          "iccp": [
+            "CU#01"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "Every CPTED project begins with scoping: what, for whom, to what end? CU#01 demands narrowing a project onto clear goals.",
+              "zh": "每個 CPTED 專案都從範圍界定開始。CU#01 要求將專案聚焦於明確目標。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Scope Document Template",
+              "title_zh": "範圍文件範本",
+              "en": "1. Client & Stakeholders: who commissioned, who acts on recommendations\n2. Site Boundaries: physical perimeter including adjacent properties\n3. Problem Statement: trigger — incidents, fear, new construction, regulatory requirement\n4. Assessment Type: new design review / existing facility audit / post-incident / renovation\n5. Deliverables: report, presentation, design markup, implementation plan\n6. Constraints: budget, timeline, access, politics, regulations\n7. Exclusions: what is NOT in scope",
+              "zh": "1. 客戶與利害關係人\n2. 場地邊界\n3. 問題陳述\n4. 評估類型\n5. 交付物\n6. 限制條件\n7. 排除範圍"
+            },
+            {
+              "type": "concept",
+              "title_en": "Stakeholder Mapping",
+              "title_zh": "利害關係人圖",
+              "en": "CPTED projects involve: Security/Police (crime data, patrol patterns), Architecture/Design (plans, materials), Facility Management (maintenance, operations), Users (usage patterns, fear perceptions), Management (budget, risk appetite, brand). Conflicting interests are common. The practitioner finds design solutions satisfying multiple stakeholders simultaneously.",
+              "zh": "CPTED 專案涉及：安全/警察、建築/設計、設施管理、使用者、管理層。執業者的角色是找到同時滿足多方的設計方案。"
+            },
+            {
+              "type": "check",
+              "en": "Draft a 1-page scope document for a CPTED assessment of your office ground floor.",
+              "zh": "為辦公大樓一樓草擬 1 頁範圍文件。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "CPTED project scoping templates (ICA)",
+              "type": "template",
+              "url": "https://www.cpted.net/ICCP"
+            },
+            {
+              "title": "21st Century Security and CPTED Ch. 3-4",
+              "type": "book",
+              "url": "https://www.routledge.com/21st-Century-Security-and-CPTED/Atlas/p/book/9781439880210"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Write a mock CPTED project scope for your office lobby",
+              "zh": "撰寫模擬 CPTED 專案範圍書"
+            },
+            {
+              "en": "Map 5 stakeholder types and their competing interests",
+              "zh": "識別 5 種利害關係人及其衝突利益"
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "en": "Research & Data Collection",
+          "zh": "研究與資料收集",
+          "iccp": [
+            "CU#03"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "CU#03 is the methodological core. It requires both quantitative and qualitative research skills.",
+              "zh": "CU#03 是方法論核心。要求量化和質化研究技能。"
+            },
+            {
+              "type": "concept",
+              "title_en": "CPTED Safety Audit",
+              "title_zh": "CPTED 安全稽核",
+              "en": "Walk the site at multiple times (day, night, shift changes, weekends). Document:\n• Sightlines: where can/can't you see? Where would you hide?\n• Lighting: uniformity, shadows, glare, dead spots (measure in lux)\n• Access: how many entry/exit points? Controlled vs. uncontrolled?\n• Territory: where do zones change? Are transitions marked?\n• Activity: where do people congregate? Where are dead zones?\n• Maintenance: what's deteriorating?\n• Fear indicators: where would you feel uncomfortable alone at night?\n\nUse standardized checklists but always supplement with narrative observation. Checklists capture categories; narratives capture the story of a space.",
+              "zh": "在不同時間走訪場地。記錄：視線、照明、出入、領域、活動、維護、恐懼指標。\n\n使用標準化查核表但始終輔以敘述觀察。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Crime Data Analysis",
+              "title_zh": "犯罪數據分析",
+              "en": "Quantitative: police stats, incident reports, security logs, access control data, CCTV events, insurance claims. Use GIS for hotspot mapping.\n\nQualitative: interviews, focus groups, perception surveys (fear of crime matters as much as actual crime), behavioral observation.\n\nCaution: crime data has known weaknesses — underreporting, geo-coding inaccuracies, reporting bias. Privacy regulations may restrict access. Always triangulate multiple data sources.",
+              "zh": "量化：警察統計、事件報告、安全日誌、門禁數據。使用 GIS 熟點地圖。\n\n質化：訪談、焦點小組、感知調查。\n\n注意：犯罪數據有弱點。始終三角驗證多個來源。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "Crime Analysis with Crime Mapping (Santos)",
+              "type": "book",
+              "url": "https://us.sagepub.com/en-us/nam/crime-analysis-with-crime-mapping/book243862"
+            },
+            {
+              "title": "CPTED safety audit checklists",
+              "type": "template",
+              "url": "https://www.cpted.net/ICCP"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Conduct a CPTED safety audit of a parking structure",
+              "zh": "對停車場進行 CPTED 安全稽核"
+            },
+            {
+              "en": "Collect and map workplace incident data over 6 months",
+              "zh": "收集並繪製 6 個月事件數據地圖"
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "en": "Analysis, Report & Application",
+          "zh": "分析、報告與應用",
+          "iccp": [
+            "CU#04",
+            "CU#07",
+            "CU#08",
+            "CU#09"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "CU#04/07/08/09 form a connected workflow: read plans → analyze conditions → write reports → apply options.",
+              "zh": "CU#04/07/08/09 形成連貫工作流：閱讀圖面 → 分析狀況 → 撰寫報告 → 應用方案。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Reading Plans (CU#04)",
+              "title_zh": "閱讀圖面 (CU#04)",
+              "en": "Essential drawing types: Site Plan (access control + territorial analysis), Floor Plan (surveillance sightlines + zone definition), Elevation (window placement, materials), Section (level changes affecting surveillance), Landscape Plan (maintenance + sightlines).\n\nCPTED Markup: color-coded overlays — red = surveillance blind spots, blue = access points, green = territorial boundaries, yellow = lighting gaps. This is your primary communication tool with architects.",
+              "zh": "基本圖面類型：場地平面圖、平面圖、立面圖、剖面圖、景觀圖。\n\nCPTED 標注：色碼覆蓋層——紅=監控死角，藍=出入點，綠=領域邊界，黃=照明缺口。"
+            },
+            {
+              "type": "framework",
+              "title_en": "CPTED Report Structure (CU#08)",
+              "title_zh": "CPTED 報告結構 (CU#08)",
+              "en": "1. Executive Summary (1 page): top findings + priority actions\n2. Project Scope: site, dates, methodology, team, data sources\n3. Site Context: location, surroundings, crime data overview\n4. Findings by Zone: conditions, photos, CPTED principle analysis, risk rating\n5. Recommendations tiered by timeline:\n   • Quick Wins (0-3 months): lighting, signage, sightline clearing\n   • Medium Term (3-12 months): landscape redesign, access upgrades\n   • Capital Projects (12+ months): structural modifications\n6. Implementation Priority Matrix: effort vs. impact\n7. Appendices: photo log, data tables, marked-up plans",
+              "zh": "1. 執行摘要（1頁）\n2. 專案範圍\n3. 場地背景\n4. 按區域的發現\n5. 分級建議：速效、中期、資本支出\n6. 實施優先矩陣\n7. 附件"
+            },
+            {
+              "type": "concept",
+              "title_en": "ISO 22341 Three-Stage Model (CU#09)",
+              "title_zh": "ISO 22341 三階段模型 (CU#09)",
+              "en": "1. Planning Stage: scale, function, zoning integration\n2. Design Stage: architecture, landscape, lighting, materials — the four 1G principles applied\n3. Site and Social Management: maintenance, surveillance patrols, swift repairs, publicity\n\nKey insight: most CPTED failures happen at the management stage, not design. A well-designed space that deteriorates loses its effectiveness.",
+              "zh": "1. 規劃階段\n2. 設計階段\n3. 場地和社會管理階段\n\n大多數 CPTED 失敗發生在管理階段，而非設計。"
+            },
+            {
+              "type": "check",
+              "en": "Draft a CPTED report outline for your office building lobby. Which findings would be quick wins?",
+              "zh": "為你辦公大廳草擬 CPTED 報告大綱。哪些發現是速效方案？"
+            }
+          ],
+          "readings": [
+            {
+              "title": "Designing Out Crime (Ekblom)",
+              "type": "book",
+              "url": "https://www.routledge.com/Designing-Out-Crime/Ekblom/p/book/9780415685320"
+            },
+            {
+              "title": "CPTED Risk Assessment Matrix (Atlas Ch. 24-25)",
+              "type": "book",
+              "url": "https://www.routledge.com/21st-Century-Security-and-CPTED/Atlas/p/book/9781439880210"
+            },
+            {
+              "title": "ISO 22341:2021 Section 5.2",
+              "type": "standard",
+              "url": "https://www.iso.org/standard/50078.html"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Build a CPTED risk matrix for a visitor reception area",
+              "zh": "為訪客接待區建立風險矩陣"
+            },
+            {
+              "en": "Draft a complete CPTED report for a small project",
+              "zh": "為小型專案草擬完整 CPTED 報告"
+            },
+            {
+              "en": "Design a 3-tier CPTED improvement package for a real site",
+              "zh": "為實際場所設計 3 級 CPTED 改善方案"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "applied",
+      "num": 3,
+      "en": "Applied Practice",
+      "zh": "實務應用",
+      "weekRange": "15-22",
+      "color": "--phase-3",
+      "icon": "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z",
+      "modules": [
+        {
+          "id": "a1",
+          "en": "Semiconductor & Critical Infrastructure CPTED",
+          "zh": "半導體與關鍵基礎設施",
+          "iccp": [
+            "CU#10"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "CU#10 (Professional) requires CPTED in a specialist setting. Semiconductor fabrication facilities represent unique CPTED challenges.",
+              "zh": "CU#10（專業級）要求在專業環境中應用 CPTED。半導體製造設施具有獨特的 CPTED 挑戰。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Semiconductor Facility CPTED",
+              "title_zh": "半導體設施 CPTED",
+              "en": "Campus zoning (Defense in Depth + CPTED): Public zone (community interface) → Campus perimeter (territorial boundaries, vehicle access) → Building perimeter (badge access, visitor management) → Cleanroom/restricted (multi-factor, mantrap) → Tool-level access.\n\nUnique challenges: 24/7 operations with shift-change congestion; massive utility infrastructure needing protection AND maintenance access; visitor complexity (customers, vendors, auditors, construction crews); balance between fortress security and 'make you feel safe'; construction/expansion breaking existing CPTED; supply chain security (TAPA) extending CPTED to loading/shipping.",
+              "zh": "園區分區：公共區 → 園區周界 → 建築周界 → 潔淨室/管制區 → 設備級。\n\n獨特挑戰：24/7 營運、大型公用設施、訪客複雜性、堡壘安全與品牌平衡、施工期崩壞 CPTED、供應鏈安全延伸。"
+            },
+            {
+              "type": "check",
+              "en": "Which CPTED principles are strongest in your current facility? Where does security friction undermine employee experience?",
+              "zh": "你設施哪些 CPTED 原則最強？安全摩擦在哪裡損害員工體驗？"
+            },
+            {
+              "type": "concept",
+              "title_en": "Taipei Micro-Place Crime Concentration (2025 Study)",
+              "title_zh": "台北微觀地點犯罪集中研究 (2025)",
+              "en": "A 2025 study published in International Criminology (Springer) validated the law of crime concentration in a non-Western setting using Taipei City Police Department burglary data from 2015-2019. Using clusters of 90 housing units as micro-place units:\n\n51.3% of all burglaries occurred in just 5% of micro-place units. 25.9% concentrated in only 1.7% of units. Over 80% of spatial units were entirely burglary-free during the 5-year period. The generalized Gini coefficient was 0.4967, indicating significant disparity in crime distribution.\n\nImplication for practice: city-wide blanket security is wasteful. CPTED interventions should target identified high-risk spatial nodes with precision. This data-driven approach applies directly to campus security: map your incident data, identify concentration points, and focus CPTED improvements there.",
+              "zh": "一項 2025 年發表於 International Criminology (Springer) 的研究使用台北市警察局 2015-2019 年積案數據驗證了犯罪集中法則：\n\n51.3% 的穌案發生在僅 5% 的微觀地點單位。25.9% 集中在僅 1.7% 的單位。80% 以上的空間單位在 5 年期間完全無穌案。广義 Gini 係數為 0.4967。\n\n實務含義：全市布毯式安全是浪費的。CPTED 介入應精準針對已識別的高風險空間節點。此數據驅動方法直接適用於園區安全：繪製事件數據、識別集中點、聚焦 CPTED 改善。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Singapore HDB CPTED Model",
+              "title_zh": "新加坡 HDB CPTED 模式",
+              "en": "Singapore represents one of the most comprehensive state-led CPTED implementations globally. The NCPC published a CPTED Guidebook (2003) for architects, town planners, and developers. Because most of Singapore's population lives in HDB high-rise public housing, the state uses CPTED to mitigate anonymity and spatial vulnerability in dense complexes.\n\nPhysical approach: eliminate entrapment spots, maximize natural surveillance in void decks, stairwells, lobbies, and corridors through mandated clear sightlines, robust lighting, and careful landscaping.\n\nSocial approach: decentralized Neighborhood Police Posts placed directly within housing estates with foot patrols over motorized response, embedding law enforcement in daily community life.\n\nSmart Nation overlay: integrating IoT sensors, ITS, and data-sharing across agencies to create an ecosystem where physical design and digital surveillance work in tandem.\n\nRelevance: Singapore's model demonstrates CPTED at scale in high-density Asian urban environments, directly comparable to Taiwan's urban context.",
+              "zh": "新加坡是全球最全面的國家主導 CPTED 實施之一。NCPC 於 2003 年發布 CPTED 指南。因大部分人口居住在 HDB 高層公共住宅，國家使用 CPTED 緩解密集大樓的匿名性和空間脆弱性。\n\n物理方法：消除嘈引點、透過強制清晰視線和照明來最大化自然監控。\n\n社會方法：分散式鄰里警察崗位直接設在住宅區內，優先步巡而非機動回應。\n\n智慧國家覆蓋：整合 IoT 感測器、ITS 和跨機構數據共享。\n\n相關性：新加坡模式展示了在亞洲高密度都市環境中規模化的 CPTED，直接可與台灣都市環境比較。"
+            },
+            {
+              "type": "concept",
+              "title_en": "Implementation Governance",
+              "title_zh": "實施治理",
+              "en": "Key barriers to CPTED adoption and how to overcome them:\n\n1. Inter-Agency Siloing: planners focus on aesthetics, police on reactive suppression. Solution: mandatory multidisciplinary review boards where security, architecture, engineering, and social workers jointly evaluate proposals before permits are issued.\n2. Policy Integration: codify CPTED into binding city policies and building codes. Portland, Oregon explicitly adopted binding CPTED policy for all multi-family properties. This makes CPTED standard operating procedure rather than optional.\n3. Budget Constraints: leverage alternative funding. Binghamton, NY used USD 1M in ARPA funds to create CPTED grants reimbursing property owners for upgrades following police recommendations.\n4. Community Buy-in: when residents are excluded, CPTED interventions are perceived as hostile architecture. Participatory budgeting and resident-led training ensure culturally appropriate interventions that get maintained long-term.\n\nFor corporate contexts: the same dynamics apply. Security that is imposed without stakeholder consultation breeds workarounds. The most effective corporate CPTED is co-designed with facility users.",
+              "zh": "採用 CPTED 的主要障礙及克服方法：\n\n1. 跨機構穀倉化：解決方案是強制性跨領域審查委員會。\n2. 政策整合：將 CPTED 編入建築法規。波特蘭將 CPTED 納入所有多戶住宅的約束性政策。\n3. 預算限制：利用替代資金。賓漢姆頓使用 100 萬美元 ARPA 資金創建 CPTED 補助金。\n4. 社區認同：排除居民的 CPTED 被視為敵意建築。參與式預算和居民培訓確保長期維護。\n\n企業環境：相同動態適用。未經利害關係人諾詢而強加的安全會產生變通。最有效的企業 CPTED 是與設施使用者共同設計的。"
+            },
+            {
+              "type": "insight",
+              "en": "PERSPECTIVE: Head of Global Physical Security\n\nAs a security leader responsible for semiconductor fabrication and R&D facilities across Taiwan, China, Japan, Germany, the United States, Canada, and Korea, I see CPTED as a strategic unifier — not just a design methodology.\n\nCross-jurisdictional alignment: Every region has different building codes, cultural norms, and threat profiles. ISO 22341 provides a common language. When I walk a fab in Hsinchu and one in Dresden, I need a consistent assessment framework. CPTED’s principles are universal; their application is local.\n\nCultural adaptation matters: In Taipei, high-density campuses demand vertical CPTED thinking — stacked cleanrooms, shared lobbies, underground utilities. In Texas, expansive campuses create different surveillance challenges. In Japan, cultural deference to spatial order means CPTED principles are often already embedded but unnamed. In Germany, worker council (Betriebsrat) consultation shapes how access control is implemented. A single global policy fails; a shared CPTED framework with regional adaptation succeeds.\n\nROI for the board: The board asks two questions: does it reduce risk, and what does it cost? CPTED answers both. A well-designed visitor flow reduces friction and guard headcount simultaneously. Optimized sightlines reduce camera density. Territorial reinforcement through landscaping costs less than perimeter fencing and supports talent recruitment. I frame CPTED as operational efficiency that happens to be security — because that is exactly what it is.\n\nIntegration, not addition: CPTED does not replace TAPA FSR, SEMI E187, or ISO 27001 compliance. It is the design layer underneath all of them. When access control is designed into facility flow rather than bolted on, TAPA compliance becomes easier. When natural surveillance is built into cleanroom corridors, SEMI E187 monitoring is simpler.\n\nThe brand dimension: Our tagline is ‘make you feel safe.’ CPTED is the design methodology that delivers on that promise. Fortress security makes people feel controlled. CPTED makes people feel safe. For a company competing globally for engineering talent, that distinction matters.",
+              "zh": "觀點：全球實體安全負責人\n\n作為負責台灣、中國、日本、德國、美國、加拿大和韓國設施的安全領導者，我將 CPTED 視為戰略統一者。\n\n跨司法管轄區對齊：ISO 22341 提供共同語言。CPTED 原則是普世的；應用是在地的。\n\n文化適應：台北高密度園區需要垂直 CPTED 思維。德州擴展園區有不同監控挑戰。日本的空間秩序文化意味 CPTED 已嵌入但未命名。德國勞資委員會影響門禁實施。單一全球政策會失敗；共享框架加區域適應才成功。\n\nROI：設計良好的訪客流程同時減少摩擦和保安人數。我將 CPTED 定位為「剛好是安全的營運效率」。\n\n整合而非疊加：CPTED 不取代 TAPA、SEMI 或 ISO 27001。它是它們之下的設計層。\n\n品牌：「make you feel safe」。堡壘式安全讓人感到被控制。CPTED 讓人感到安全。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "TAPA FSR 2020",
+              "type": "standard",
+              "url": "https://tapa.org/facility-security-requirements/"
+            },
+            {
+              "title": "SEMI E187",
+              "type": "standard",
+              "url": "https://www.semi.org/en/Standards/CTR_033498"
+            },
+            {
+              "title": "21st Century CPTED Ch. 18-19",
+              "type": "book",
+              "url": "https://www.routledge.com/21st-Century-Security-and-CPTED/Atlas/p/book/9781439880210"
+            }
+          ],
+          "actions": [
+            {
+              "en": "CPTED gap analysis against TAPA FSR Level A",
+              "zh": "TAPA FSR A 級 CPTED 缺口分析"
+            },
+            {
+              "en": "Map campus zones with CPTED overlay: identify weakest transitions",
+              "zh": "繪製園區分區 CPTED 覆蓋圖"
+            }
+          ]
+        },
+        {
+          "id": "a2",
+          "en": "Field Projects (2 required)",
+          "zh": "實地專案（2 件）",
+          "iccp": [
+            "CU#01",
+            "CU#02",
+            "CU#03",
+            "CU#07",
+            "CU#08",
+            "CU#09"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "Two independent CPTED field assessments — from scope through final report. Core ICCP competency matrix evidence. Choose different site types.",
+              "zh": "兩個獨立 CPTED 實地評估。ICCP 能力矩陣的核心證據。選擇不同場所類型。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Field Project Checklist",
+              "title_zh": "實地專案查核表",
+              "en": "1. Select site and define scope (CU#01)\n2. Background research: crime data, plans, interviews (CU#03)\n3. Safety audit at multiple times of day (CU#03)\n4. Read and annotate site plans (CU#04)\n5. Analyze conditions, build risk matrix (CU#07)\n6. Write formal CPTED report with tiered recommendations (CU#08)\n7. Present findings and document stakeholder response (CU#09)\n\nSuggested pairings: workplace campus + public parking; office building + residential area.",
+              "zh": "1. 選擇場地並界定範圍\n2. 背景研究\n3. 安全稽核\n4. 標註圖面\n5. 分析狀況\n6. 撰寫報告\n7. 發表發現"
+            }
+          ],
+          "readings": [
+            {
+              "title": "ICCP Competency Matrix template",
+              "type": "template",
+              "url": "https://www.cpted.net/ICCP"
+            },
+            {
+              "title": "ICA E-Guidebooks: Field Assessment",
+              "type": "guide",
+              "url": "https://www.cpted.net/E-Guidebooks"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Project 1: Full CPTED assessment of your workplace",
+              "zh": "專案 1：工作場所完整 CPTED 評估"
+            },
+            {
+              "en": "Project 2: CPTED assessment of a different environment",
+              "zh": "專案 2：不同環境類型 CPTED 評估"
+            }
+          ]
+        },
+        {
+          "id": "a3",
+          "en": "Advanced Plans & Implementation",
+          "zh": "進階圖面與實施規劃",
+          "iccp": [
+            "CU#05",
+            "CU#11"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "CU#05 and CU#11 distinguish Practitioner from Professional. Advanced plan interpretation and turning reports into actionable implementation plans.",
+              "zh": "CU#05 和 CU#11 區分執業者和專業級。進階圖面解讀並將報告轉化為實施計畫。"
+            },
+            {
+              "type": "concept",
+              "title_en": "From Report to Implementation (CU#11)",
+              "title_zh": "從報告到實施 (CU#11)",
+              "en": "An implementation plan adds: phased action steps with assigned parties, cost estimates per recommendation, cost-benefit analysis, timeline with milestones, resource identification, success metrics, short-term (3-6mo) and long-term (1-3yr) outcomes, maintenance requirements.",
+              "zh": "實施計畫增加：分階段行動步驟、每項建議成本估算、成本效益分析、帶里程碑的時程、資源辨識、成功指標。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "Architectural Graphics (Ching)",
+              "type": "book",
+              "url": "https://www.wiley.com/en-us/Architectural+Graphics%2C+6th+Edition-p-9781119035725"
+            },
+            {
+              "title": "SafeGrowth implementation cases",
+              "type": "paper",
+              "url": "https://www.safegrowth.org"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Convert one field project report into phased implementation plan",
+              "zh": "將實地專案報告轉換為分階段實施計畫"
+            },
+            {
+              "en": "Build cost-benefit model for top 5 CPTED recommendations",
+              "zh": "為前 5 項 CPTED 建議建立成本效益模型"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certification",
+      "num": 4,
+      "en": "Certification & Mastery",
+      "zh": "認證與精通",
+      "weekRange": "23-30",
+      "color": "--phase-4",
+      "icon": "M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z",
+      "modules": [
+        {
+          "id": "x1",
+          "en": "ICA Membership & ICCP Certification",
+          "zh": "ICA 會員與 ICCP 認證",
+          "iccp": [
+            "CU#01",
+            "CU#02",
+            "CU#03",
+            "CU#04",
+            "CU#06",
+            "CU#07",
+            "CU#08",
+            "CU#09"
+          ],
+          "content": [
+            {
+              "type": "text",
+              "en": "The fastest path to ICCP is through a CAP Class A course, satisfying all 8 Practitioner competencies.",
+              "zh": "取得 ICCP 最快的途徑是通過 CAP Class A 課程。"
+            },
+            {
+              "type": "framework",
+              "title_en": "Certification Pathway",
+              "title_zh": "認證路徑",
+              "en": "Step 1: Join ICA (~CA$100/yr)\nStep 2: CAP Class A course (CyberCPTED Academy 6wks online, or Atlas Safety semester course)\nStep 3: Complete additional field project after course (within 2 years)\nStep 4: Apply ICCP-Practitioner (CA$275)\nStep 5: Complete ICCP Competency Matrix with evidence\nStep 6: Written or oral exam\nStep 7: Re-certify every 3 years (CA$85)\n\nFor Professional: add CU#05, CU#10, CU#11 (3 additional competencies after Practitioner)",
+              "zh": "步驟 1: 加入 ICA\n步驟 2: CAP Class A 課程\n步驟 3: 課程後完成實地專案\n步驟 4: 申請 ICCP-Practitioner (CA$275)\n步驟 5: 完成能力矩陣\n步驟 6: 筆試或口試\n步驟 7: 每 3 年重新認證 (CA$85)"
+            },
+            {
+              "type": "concept",
+              "title_en": "Exam Topics",
+              "title_zh": "考試主題",
+              "en": "Define CPTED and theoretical foundations; explain each 1G principle with examples; describe 2G/3G principles and practical application; explain assessment methodology step by step; describe how to read and annotate site plans; explain crime displacement; describe ISO 22341; explain CPTED in your specialist field; discuss ethical considerations (exclusion, gentrification, privacy); describe a completed CPTED project and lessons learned.",
+              "zh": "定義 CPTED 及理論基礎；說明每項 1G 原則；描述 2G/3G；說明評估方法論；描述圖面標註；解釋犯罪轉移；描述 ISO 22341；說明專業領域應用；討論倫理考量。"
+            },
+            {
+              "type": "concept",
+              "title_en": "ICCP Competency Units: Expanded Descriptions",
+              "title_zh": "ICCP 能力單元：擴展描述",
+              "en": "Each CU embeds specific Core Subjects (CS) beyond the title:\n\nCU#01 (Task Definition): includes basic CPTED principles application, applied research methods, understanding professional scope and legal liability limits.\nCU#02 (Multidisciplinary Team): leadership dynamics, interpersonal communication, team-based assessment, facilitating community participation.\nCU#03 (Research): environmental criminology, quantitative/qualitative data analysis, safety audits, diagnostic problem-solving.\nCU#04 (Plans - Basic): technical architectural literacy, spatial awareness, landscape design interpretation.\nCU#05 (Plans - Advanced, Professional only): traffic engineering analysis, photometric evaluation, advanced drafting interpretation.\nCU#06 (Regulatory): legal liability, municipal governance, urban planning legislation, ethical impact of design.\nCU#07 (Analysis): social ecology, demographic analysis, crime generator/attractor identification, edge effects.\nCU#08 (Report): professional technical writing, data visualization, persuasive stakeholder communication.\nCU#09 (Application): strategic decision-making, risk-benefit analysis, understanding displacement effects.\nCU#10 (Specialist, Professional only): 2G-CPTED integration, advanced electronic security technology, sector-specific threat mitigation.\nCU#11 (Implementation Plan, Professional only): advanced project management, strategic planning, financial resource allocation, executive communication.",
+              "zh": "每個 CU 嵌入特定的核心主題 (CS)：\n\nCU#01：基本 CPTED 原則應用、研究方法、專業範圍和法律責任限制。\nCU#02：領導力動態、人際溝通、團隊評估、社區參與促進。\nCU#03：環境犯罪學、量化/質化數據分析、安全稽核。\nCU#04：技術建築讀寫能力、空間意識。\nCU#05（專業級）：交通工程分析、光度評估。\nCU#06：法律責任、市政治理、都市規劃立法。\nCU#07：社會生態、人口分析、犯罪生成器/吸引器識別。\nCU#08：專業技術寫作、數據視覺化、利害關係人溝通。\nCU#09：策略決策、風險效益分析、轉移效應。\nCU#10（專業級）：2G-CPTED 整合、進階電子安全技術。\nCU#11（專業級）：進階專案管理、資源配置、高階溝通。"
+            }
+          ],
+          "readings": [
+            {
+              "title": "ICA membership (cpted.net)",
+              "type": "action",
+              "url": "https://www.cpted.net/membership"
+            },
+            {
+              "title": "CyberCPTED Academy Class A",
+              "type": "course",
+              "url": "https://www.cybercpted.org"
+            },
+            {
+              "title": "ICCP Competency Matrix",
+              "type": "template",
+              "url": "https://www.cpted.net/ICCP"
+            },
+            {
+              "title": "ICCP Preparatory Exam Questions",
+              "type": "guide",
+              "url": "https://www.cpted.net/FAQ_ICCP"
+            }
+          ],
+          "actions": [
+            {
+              "en": "Register for ICA membership",
+              "zh": "申請 ICA 會員"
+            },
+            {
+              "en": "Complete CAP-accredited course",
+              "zh": "完成 CAP 誨證課程"
+            },
+            {
+              "en": "Submit ICCP application with competency matrix",
+              "zh": "提交 ICCP 申請及能力矩陣"
+            },
+            {
+              "en": "Practice exam with mock answers",
+              "zh": "模擬考試練習"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ALL_CU": [
+    {
+      "id": "CU#01",
+      "en": "Define the task",
+      "zh": "定義任務",
+      "level": "P"
+    },
+    {
+      "id": "CU#02",
+      "en": "Apply CPTED theory",
+      "zh": "應用 CPTED 理論",
+      "level": "P"
+    },
+    {
+      "id": "CU#03",
+      "en": "Undertake research",
+      "zh": "進行研究",
+      "level": "P"
+    },
+    {
+      "id": "CU#04",
+      "en": "Read plans (Basic)",
+      "zh": "閱讀圖面（基礎）",
+      "level": "P"
+    },
+    {
+      "id": "CU#05",
+      "en": "Read plans (Advanced)",
+      "zh": "閱讀圖面（進階）",
+      "level": "Pro"
+    },
+    {
+      "id": "CU#06",
+      "en": "Regulatory processes",
+      "zh": "法規程序",
+      "level": "P"
+    },
+    {
+      "id": "CU#07",
+      "en": "Analyze conditions",
+      "zh": "分析狀況",
+      "level": "P"
+    },
+    {
+      "id": "CU#08",
+      "en": "Compile report",
+      "zh": "編寫報告",
+      "level": "P"
+    },
+    {
+      "id": "CU#09",
+      "en": "Apply CPTED options",
+      "zh": "應用 CPTED 方案",
+      "level": "P"
+    },
+    {
+      "id": "CU#10",
+      "en": "Specialist setting",
+      "zh": "專業環境",
+      "level": "Pro"
+    },
+    {
+      "id": "CU#11",
+      "en": "Implementation plan",
+      "zh": "實施計畫",
+      "level": "Pro"
+    }
+  ]
+}
